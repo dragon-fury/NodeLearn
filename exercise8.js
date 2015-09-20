@@ -7,6 +7,8 @@ var collectedStream = function(data) {
 	console.log(data);
 };
 
+
+
 http.get(url, function(response) {
 	response.setEncoding("utf8");
 	response.on("error", console.error);
